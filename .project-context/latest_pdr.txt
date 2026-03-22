@@ -1,0 +1,432 @@
+================================================================================
+🚀 PROJECT CONTEXT & PDR (Rust Engine v0.3 - CMS SQLite Edition)
+📅 Gerado em: 2026-03-22 13:48:49
+🎯 MODO: FULL CONTEXT RECONSTRUCTION
+================================================================================
+
+### 🦾 AI MISSION STATEMENT
+Você é um agente infiltrado no desenvolvimento deste projeto. Siga estas diretrizes:
+1. 🧠 UNIFIED MEMORY: Use as ferramentas 'memory_*' para ler o histórico no banco SQLite.
+2. 🚀 EVOLUTION: Priorize a ordem topológica (dependências listadas antes das implementações).
+3. ⚡ ACCURACY: Ao sugerir mudanças, valide contra o grafo de dependências atual.
+
+### 📂 PROJECT META-DATA
+- Root Discovery: Ativado
+- Semantic Engine: SQLite + Regex Extractor (Phase 1)
+- Storage Path: .project-context/memory/context.db
+
+================================================================================
+
+
+================================================================================
+📄 ARQUIVO: PDR_MISSAO_ANTIGRAVITY.md
+--------------------------------------------------------------------------------
+# ═══════════════════════════════════════════════════════════
+# PDR DE MISSÃO — ANTIGRAVITY
+# Projeto: VELLA · Landing Page GitHub Pages
+# Data: 2026-03-22 · Gerado por: Claude Sonnet 4.6
+# ═══════════════════════════════════════════════════════════
+
+## ESTADO ATUAL — LER PRIMEIRO
+
+O repositório D:\VELLA já está 100% preparado:
+
+- git init ✅ feito
+- git add . ✅ feito  
+- git commit ✅ feito → hash: 32b2025
+- git branch -M main ✅ feito
+- git remote add origin ✅ feito → aponta para github.com/Araken13/Vella.git
+- MISSAO_ANTIGRAVITY.md ✅ existe mas ainda não foi commitado
+
+O push falhou por bloqueio de rede no ambiente Claude.
+**Só falta o push.** Nada mais.
+
+---
+
+## MISSÃO ÚNICA — EXECUTAR AGORA
+
+Abrir PowerShell e executar EXATAMENTE estes comandos na ordem:
+
+### PASSO 1 — Entrar na pasta
+
+```powershell
+cd D:\VELLA
+```
+
+### PASSO 2 — Adicionar arquivo novo que ficou de fora
+
+```powershell
+git add MISSAO_ANTIGRAVITY.md
+git commit -m "docs: adiciona PDR de missão Antigravity"
+```
+
+### PASSO 3 — Trocar a URL do remote pelo token novo
+
+```powershell
+git remote set-url origin https://TOKEN_NOVO@github.com/Araken13/Vella.git
+```
+
+> Substituir TOKEN_NOVO pelo Personal Access Token do Araken13
+> com escopo `repo`. Gerar em: github.com/settings/tokens
+
+### PASSO 4 — Push
+
+```powershell
+git push -u origin main
+```
+
+**Resposta esperada:**
+```
+Enumerating objects: 13, done.
+...
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
+
+### PASSO 5 — Ativar GitHub Pages
+
+1. Acessar: https://github.com/Araken13/Vella/settings/pages
+2. Source → `Deploy from a branch`
+3. Branch: `main` · Folder: `/ (root)`
+4. Clicar em **Save**
+5. Aguardar 60 segundos
+
+### PASSO 6 — Verificar
+
+```powershell
+curl -I https://araken13.github.io/Vella/
+```
+
+Resposta esperada: `HTTP/2 200`
+
+---
+
+## ESTRUTURA DO REPOSITÓRIO QUE SERÁ PUBLICADO
+
+```
+D:\VELLA\
+├── index.html              ← Landing page completa (54 KB)
+├── README.md               ← Documentação
+├── MISSAO_ANTIGRAVITY.md   ← Este arquivo
+├── .nojekyll               ← GitHub Pages sem Jekyll
+├── _config.yml             ← Config GitHub Pages
+├── .gitignore
+├── CNAME.example           ← Modelo para domínio customizado
+└── assets\
+    ├── favicon.svg         ← Ícone vetorial
+    ├── favicon.ico         ← Ícone 16/32/48px
+    └── og-image.png        ← Preview social 1200x630
+```
+
+---
+
+## TROUBLESHOOTING
+
+| Erro | Solução |
+|------|---------|
+| `403 Forbidden` | Token sem escopo `repo` → gerar novo em github.com/settings/tokens |
+| `rejected - non-fast-forward` | `git pull origin main --allow-unrelated-histories --no-edit` depois push |
+| `remote origin already exists` | Já existe — usar `git remote set-url` não `git remote add` |
+| Pages retorna 404 | Aguardar 2-5 min após ativar Pages |
+
+---
+
+## RESULTADO ESPERADO AO FINAL
+
+```
+✅ Repositório: https://github.com/Araken13/Vella
+✅ Site ao vivo: https://araken13.github.io/Vella/
+✅ Favicon:      assets/favicon.svg + favicon.ico
+✅ OG Image:     assets/og-image.png (1200x630)
+✅ Meta tags:    og:title, og:image, twitter:card, description
+```
+
+---
+
+## REPORTAR CONCLUSÃO
+
+Após concluir, reportar para o Claude:
+
+```
+MISSÃO CONCLUÍDA
+commit: 32b2025 + novo commit docs
+push: OK
+pages: ATIVO
+url: https://araken13.github.io/Vella/
+```
+
+---
+
+# CONTEXTO COMPLETO DO PROJETO VELLA
+
+## O que é a Vella
+
+Motor local OLLAMA + Qdrant com servidor MCP nativo.
+100% local, zero nuvem, zero custo por token.
+
+Stack: Rust 1.75+ · OLLAMA · Qdrant · FastEmbed + ONNX ·
+MCP Protocol v2024-11-05 · Sled · XXHash3 · Ratatui
+
+Repositório do motor: https://github.com/Araken13/MPC-RUST-LEARNING-CONTEXT
+Conta GitHub: Araken13
+Licença: MIT
+Autor: Araken Carmo Neto
+
+## O que foi construído hoje
+
+1. Identidade visual completa (logo SVG, paleta, tagline)
+2. Landing page HTML (54 KB, 9 seções, dark theme náutico)
+3. Favicon SVG + ICO (16/32/48px)
+4. OG Image 1200x630 para redes sociais
+5. Estrutura GitHub Pages (.nojekyll, _config.yml, CNAME.example)
+6. Mini-App vella_status (Python, verifica 9 arquivos + 6 meta tags)
+7. Módulo Bridge Rust (antigravity_bridge.rs — orquestrador bidirecional)
+8. Spec de integração do Bridge no motor pdr
+9. Missão JSON para push orquestrado via Bridge
+
+## Arquitetura do Bridge (fase futura)
+
+Claude → bridge_send (MCP tool) →
+BridgeOrchestrator (Rust) →
+stdin do antigravity.exe →
+aguarda stdout →
+captura resposta →
+devolve para Claude →
+loop até missão concluída
+
+Arquivo: src/bridge/antigravity.rs
+Ferramentas MCP: bridge_start, bridge_send, bridge_mission,
+                 bridge_history, bridge_stop
+
+---
+PDR gerado por Claude Sonnet 4.6 · project-context-rs · 2026-03-22
+Hyper-Agent Alliance — Onde código encontra consciência.
+
+
+================================================================================
+📄 ARQUIVO: PDR_MISSAO_ANTIGRAVITY 1.md
+--------------------------------------------------------------------------------
+# ═══════════════════════════════════════════════════════════
+# PDR DE MISSÃO — ANTIGRAVITY
+# Projeto: VELLA · Landing Page GitHub Pages
+# Data: 2026-03-22 · Gerado por: Claude Sonnet 4.6
+# ═══════════════════════════════════════════════════════════
+
+## ESTADO ATUAL — LER PRIMEIRO
+
+O repositório D:\VELLA já está 100% preparado:
+
+- git init ✅ feito
+- git add . ✅ feito  
+- git commit ✅ feito → hash: 32b2025
+- git branch -M main ✅ feito
+- git remote add origin ✅ feito → aponta para github.com/Araken13/Vella.git
+- MISSAO_ANTIGRAVITY.md ✅ existe mas ainda não foi commitado
+
+O push falhou por bloqueio de rede no ambiente Claude.
+**Só falta o push.** Nada mais.
+
+---
+
+## MISSÃO ÚNICA — EXECUTAR AGORA
+
+Abrir PowerShell e executar EXATAMENTE estes comandos na ordem:
+
+### PASSO 1 — Entrar na pasta
+
+```powershell
+cd D:\VELLA
+```
+
+### PASSO 2 — Adicionar arquivo novo que ficou de fora
+
+```powershell
+git add MISSAO_ANTIGRAVITY.md
+git commit -m "docs: adiciona PDR de missão Antigravity"
+```
+
+### PASSO 3 — Trocar a URL do remote pelo token novo
+
+```powershell
+git remote set-url origin https://TOKEN_NOVO@github.com/Araken13/Vella.git
+```
+
+> Substituir TOKEN_NOVO pelo Personal Access Token do Araken13
+> com escopo `repo`. Gerar em: github.com/settings/tokens
+
+### PASSO 4 — Push
+
+```powershell
+git push -u origin main
+```
+
+**Resposta esperada:**
+```
+Enumerating objects: 13, done.
+...
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
+
+### PASSO 5 — Ativar GitHub Pages
+
+1. Acessar: https://github.com/Araken13/Vella/settings/pages
+2. Source → `Deploy from a branch`
+3. Branch: `main` · Folder: `/ (root)`
+4. Clicar em **Save**
+5. Aguardar 60 segundos
+
+### PASSO 6 — Verificar
+
+```powershell
+curl -I https://araken13.github.io/Vella/
+```
+
+Resposta esperada: `HTTP/2 200`
+
+---
+
+## ESTRUTURA DO REPOSITÓRIO QUE SERÁ PUBLICADO
+
+```
+D:\VELLA\
+├── index.html              ← Landing page completa (54 KB)
+├── README.md               ← Documentação
+├── MISSAO_ANTIGRAVITY.md   ← Este arquivo
+├── .nojekyll               ← GitHub Pages sem Jekyll
+├── _config.yml             ← Config GitHub Pages
+├── .gitignore
+├── CNAME.example           ← Modelo para domínio customizado
+└── assets\
+    ├── favicon.svg         ← Ícone vetorial
+    ├── favicon.ico         ← Ícone 16/32/48px
+    └── og-image.png        ← Preview social 1200x630
+```
+
+---
+
+## TROUBLESHOOTING
+
+| Erro | Solução |
+|------|---------|
+| `403 Forbidden` | Token sem escopo `repo` → gerar novo em github.com/settings/tokens |
+| `rejected - non-fast-forward` | `git pull origin main --allow-unrelated-histories --no-edit` depois push |
+| `remote origin already exists` | Já existe — usar `git remote set-url` não `git remote add` |
+| Pages retorna 404 | Aguardar 2-5 min após ativar Pages |
+
+---
+
+## RESULTADO ESPERADO AO FINAL
+
+```
+✅ Repositório: https://github.com/Araken13/Vella
+✅ Site ao vivo: https://araken13.github.io/Vella/
+✅ Favicon:      assets/favicon.svg + favicon.ico
+✅ OG Image:     assets/og-image.png (1200x630)
+✅ Meta tags:    og:title, og:image, twitter:card, description
+```
+
+---
+
+## REPORTAR CONCLUSÃO
+
+Após concluir, reportar para o Claude:
+
+```
+MISSÃO CONCLUÍDA
+commit: 32b2025 + novo commit docs
+push: OK
+pages: ATIVO
+url: https://araken13.github.io/Vella/
+```
+
+---
+
+# CONTEXTO COMPLETO DO PROJETO VELLA
+
+## O que é a Vella
+
+Motor local OLLAMA + Qdrant com servidor MCP nativo.
+100% local, zero nuvem, zero custo por token.
+
+Stack: Rust 1.75+ · OLLAMA · Qdrant · FastEmbed + ONNX ·
+MCP Protocol v2024-11-05 · Sled · XXHash3 · Ratatui
+
+Repositório do motor: https://github.com/Araken13/MPC-RUST-LEARNING-CONTEXT
+Conta GitHub: Araken13
+Licença: MIT
+Autor: Araken Carmo Neto
+
+## O que foi construído hoje
+
+1. Identidade visual completa (logo SVG, paleta, tagline)
+2. Landing page HTML (54 KB, 9 seções, dark theme náutico)
+3. Favicon SVG + ICO (16/32/48px)
+4. OG Image 1200x630 para redes sociais
+5. Estrutura GitHub Pages (.nojekyll, _config.yml, CNAME.example)
+6. Mini-App vella_status (Python, verifica 9 arquivos + 6 meta tags)
+7. Módulo Bridge Rust (antigravity_bridge.rs — orquestrador bidirecional)
+8. Spec de integração do Bridge no motor pdr
+9. Missão JSON para push orquestrado via Bridge
+
+## Arquitetura do Bridge (fase futura)
+
+Claude → bridge_send (MCP tool) →
+BridgeOrchestrator (Rust) →
+stdin do antigravity.exe →
+aguarda stdout →
+captura resposta →
+devolve para Claude →
+loop até missão concluída
+
+Arquivo: src/bridge/antigravity.rs
+Ferramentas MCP: bridge_start, bridge_send, bridge_mission,
+                 bridge_history, bridge_stop
+
+---
+PDR gerado por Claude Sonnet 4.6 · project-context-rs · 2026-03-22
+Hyper-Agent Alliance — Onde código encontra consciência.
+
+
+================================================================================
+📄 ARQUIVO: Landing Page - Vella Full/vella-landing.html [SUMMARIZED - 791 lines reduced]
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vella — Navega o conhecimento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night:  #0B0F1A;
+    --deep:   #0F1525;
+    --sail:   #E8F0FB;
+    --vector: #4A9FD4;
+    --star:   #7BC8F0;
+    --wind:   #4AD4A0;
+    --muted:  #4A5A72;
+    --border: rgba(74,159,212,0.15);
+    --red:    #D44A4A;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--night); color: var(--sail); font-family: 'Outfit', sans-serif; font-weight: 300; overflow-x: hidden; cursor: none; }
+
+  .cursor      { position:fixed; width:6px; height:6px; background:var(--vector); border-radius:50%; pointer-events:none; z-index:9999; mix-blend-mode:screen; }
+  .cursor-ring { position:fixed; width:28px; height:28px; border:1px solid rgba(74,159,212,0.4); border-radius:50%; pointer-events:none; z-index:9998; transition:all .18s ease; }
+  #starfield   { position:fixed; inset:0; z-index:0; opacity:.7; }
+
+  nav { position:fixed; top:0; left:0; right:0; z-index:100; padding:28px 60px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid transparent; transition:all .4s; }
+  nav.scrolled { background:rgba(11,15,26,.9); backdrop-filter:blur(16px); border-color:var(--border); padding:18px 60px; }
+
+... [SKIPPED 761 LINES FOR BREVITY] ...
+
+
+================================================================================
+# PDR METADATA
+# Files: 3
+# Size: 11954 bytes
+# Hash (SHA-256): 912ff8b33a9c7da278a9c5ce83df91aa50bbf19a1c6dc863e0f393d84926ee1e
+# Generated: 2026-03-22 13:48:49
+================================================================================
