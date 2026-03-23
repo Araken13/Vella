@@ -1,14 +1,14 @@
 # Vella (Vella Project)
-Navega o conhecimento — Motor local local OLLAMA + Qdrant.
+Navega o conhecimento — Motor local Nativo RAG-Integrated.
 
 ## 🚀 O que é a Vella
 Vella é um motor de IA 100% local projetado para alto desempenho, privacidade e zero custos recorrentes.
-Ele orquestra instâncias do OLLAMA com um banco de vetores Qdrant e oferece um servidor MCP nativo.
+Ele orquestra um Motor Neural Nativo RAG-Integrated e oferece um servidor MCP nativo.
 
 ## 🛠 Tech Stack
 - **Rust 1.75+**
-- **OLLAMA**
-- **Qdrant**
+- **Motor Neural Nativo**
+- **RAG-Integrated Engine**
 - **FastEmbed + ONNX**
 - **MCP Protocol v2024-11-05**
 - **Sled, XXHash3, Ratatui**

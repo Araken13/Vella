@@ -246,7 +246,7 @@
       <circle cx="45" cy="14" r="3"   fill="#7BC8F0"/>
     </svg>
   </div>
-  <p class="hero-eyebrow">OLLAMA · QDRANT · RUST · 100% LOCAL · v1.0.0</p>
+  <p class="hero-eyebrow">MOTOR NEURAL · RAG-INTEGRATED · RUST · 100% LOCAL · v1.0.0</p>
   <h1>Navega o<br><em>conhecimento</em></h1>
   <p class="hero-tagline">Inferência local. Memória vetorial. Sem um byte sequer saindo da sua máquina.</p>
   <div class="hero-ctas">
@@ -254,8 +254,8 @@
     <a href="#commands" class="btn-ghost">VER COMANDOS</a>
   </div>
   <div class="hero-stack">
-    <span class="stack-pill sp-a">OLLAMA</span>
-    <span class="stack-pill sp-b">QDRANT</span>
+    <span class="stack-pill sp-a">MOTOR NEURAL</span>
+    <span class="stack-pill sp-b">RAG-INTEGRATED</span>
     <span class="stack-pill sp-c">RUST 1.75+</span>
     <span class="stack-pill">MCP v2024-11-05</span>
     <span class="stack-pill">FASTEMBED + ONNX</span>
@@ -304,7 +304,7 @@
     <div class="reveal">
       <p class="section-label">// 001 · CONCEITO</p>
       <h2>Uma IA que<br><em>não esquece</em><br>e não vaza</h2>
-      <p class="body-text">Vella combina o OLLAMA — inferência de LLMs rodando silenciosa no seu hardware — com o Qdrant, banco vetorial que indexa e recupera embeddings por significado, não por palavras.</p>
+      <p class="body-text">Vella combina um Motor Neural Nativo — inferência de LLMs rodando silenciosa no seu hardware — com um sistema RAG-Integrated, banco vetorial que indexa e recupera embeddings por significado, não por palavras.</p>
       <p class="body-text">FastEmbed processa os modelos ONNX localmente. Nenhuma chamada externa. Nenhum dado em trânsito. O Delta Engine com XXHash3 regenera só o que mudou — 5.000+ arquivos em 0.3s.</p>
       <p class="body-text">O servidor MCP nativo expõe 11 ferramentas diretamente para Claude, Cursor e outros agentes via protocolo stdio.</p>
     </div>
@@ -317,13 +317,13 @@
         <div>cloud &nbsp;&nbsp;&nbsp;&nbsp;= <span class="val">false</span></div>
         <div>telemetry = <span class="val">false</span></div>
         <br>
-        <div><span class="kw">[ollama]</span></div>
-        <div>model &nbsp;= <span class="str">"llama3.2"</span></div>
-        <div>embed &nbsp;= <span class="str">"nomic-embed-text"</span></div>
-        <div>host &nbsp;&nbsp;= <span class="str">"localhost:11434"</span></div>
+        <div><span class="kw">[neural]</span></div>
+        <div>model &nbsp;= <span class="str">"all-MiniLM-L6-v2"</span></div>
+        <div>backend = <span class="str">"onnx-runtime"</span></div>
+        <div>host &nbsp;&nbsp;= <span class="str">"native-binary"</span></div>
         <br>
-        <div><span class="kw">[qdrant]</span></div>
-        <div>host &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="str">"localhost:6333"</span></div>
+        <div><span class="kw">[rag]</span></div>
+        <div>host &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="str">"embedded"</span></div>
         <div>collection = <span class="str">"vella_memory"</span></div>
         <div>dims &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="nm">768</span></div>
         <br>
@@ -355,8 +355,8 @@
         <line x1="20" y1="14" x2="32" y2="24" stroke="#4A9FD4" stroke-width="1" opacity=".6"/>
       </svg>
       <div class="feature-title">Memória Vetorial</div>
-      <div class="feature-body">Qdrant indexa documentos, sessões e código em embeddings de alta dimensão. Recuperação semântica em milissegundos — por significado, não por palavras-chave.</div>
-      <span class="ftag ft-b">QDRANT + FASTEMBED</span>
+      <div class="feature-body">O Motor RAG-Integrated indexa documentos, sessões e código em embeddings de alta dimensão. Recuperação semântica em milissegundos — por significado, não por palavras-chave.</div>
+      <span class="ftag ft-b">RAG-INTEGRATED + FASTEMBED</span>
     </div>
 
     <div class="feature-card">
@@ -366,8 +366,8 @@
         <path d="M10 33 Q16 24 22 28 Q28 32 34 24" stroke="#4AD4A0" stroke-width=".7" stroke-linecap="round" fill="none" opacity=".3"/>
       </svg>
       <div class="feature-title">Inferência Silenciosa</div>
-      <div class="feature-body">OLLAMA roda Llama3, Mistral, Gemma e outros no seu hardware. Sem latência de rede, sem tokens enviados para fora, sem custo variável por chamada.</div>
-      <span class="ftag ft-g">OLLAMA LOCAL</span>
+      <div class="feature-body">O Motor Neural Nativo utiliza ONNX embutido para rodar modelos. Sem latência de rede, sem tokens enviados para fora, sem dependência de serviços externos.</div>
+      <span class="ftag ft-g">MOTOR NEURAL NATIVO</span>
     </div>
 
     <div class="feature-card">
@@ -456,9 +456,9 @@
     <div class="step">
       <div class="step-content">
         <div class="step-label">INDEXAÇÃO</div>
-        <div class="step-title">Qdrant armazena</div>
-        <div class="step-desc">Os vetores são indexados no Qdrant com metadados ricos. Sessões, decisões e snapshots PDR são persistidos no banco Sled embutido na collection vella_memory.</div>
-        <div class="step-code">collection: vella_memory · localhost:6333</div>
+        <div class="step-title">Armazenamento</div>
+        <div class="step-desc">Os vetores são indexados no sistema RAG-Integrated com metadados ricos. Sessões, decisões e snapshots PDR são persistidos no banco embutido na local_memory.</div>
+        <div class="step-code">collection: vella_memory · embedded</div>
       </div>
       <div class="step-num">03</div>
       <div class="step-content"></div>
@@ -469,15 +469,15 @@
       <div class="step-content">
         <div class="step-label">BUSCA SEMÂNTICA</div>
         <div class="step-title">Similaridade de cosseno</div>
-        <div class="step-desc">Sua pergunta vira um vetor. O Qdrant encontra os fragmentos mais relevantes por similaridade de cosseno em milissegundos — não por palavras, por significado real.</div>
+        <div class="step-desc">Sua pergunta vira um vetor. O Motor Neural Nativo encontra os fragmentos mais relevantes por similaridade de cosseno em milissegundos — não por palavras, mas por significado real.</div>
         <div class="step-code">$ pdr memory search "refatoração do motor"</div>
       </div>
     </div>
     <div class="step">
       <div class="step-content">
         <div class="step-label">RESPOSTA GERADA</div>
-        <div class="step-title">OLLAMA responde</div>
-        <div class="step-desc">O modelo local recebe o contexto recuperado via RAG e gera a resposta. O servidor MCP entrega diretamente para Claude ou outro agente. Tudo local, tudo rápido.</div>
+        <div class="step-title">Motor Neural responde</div>
+        <div class="step-desc">O modelo nativo recebe o contexto recuperado via RAG e gera a resposta. O servidor MCP entrega diretamente para Claude ou outro agente. Tudo local, tudo rápido.</div>
         <div class="step-code">$ pdr mcp  # servidor MCP ativo via stdio</div>
       </div>
       <div class="step-num">05</div>
@@ -739,7 +739,7 @@
 <!-- FOOTER -->
 <footer>
   <span class="footer-logo">VELLA</span>
-  <span class="footer-copy">OLLAMA + QDRANT · 100% LOCAL · v1.0.0</span>
+  <span class="footer-copy">MOTOR NEURAL NATIVO · RAG-INTEGRATED · 100% LOCAL · v1.0.0</span>
   <div class="footer-links">
     <a href="https://github.com/Araken13/MPC-RUST-LEARNING-CONTEXT" target="_blank">GitHub</a>
     <a href="https://github.com/Araken13/MPC-RUST-LEARNING-CONTEXT/blob/main/TECHNICAL_DOCS.md" target="_blank">Docs</a>
